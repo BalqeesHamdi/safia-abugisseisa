@@ -61,12 +61,12 @@ export default function Home() {
           <div className='count'>
             <h4>Company Formation</h4>
           </div>
-            <ul>
-              <li>Incorporation of companies, Branch Office, Representative Office and Subsidiary Companies in UAE Free Zones and in Mainland.</li>
-              <li>Formation of offshore companies.</li>
-              <li>Assistance with residency visas and opening of bank accounts in UAE.</li>
-              <li>Drafting of MOA and other legal agreements.</li>
-            </ul>
+          <ul>
+            <li>Incorporation of companies, Branch Office, Representative Office and Subsidiary Companies in UAE Free Zones and in Mainland.</li>
+            <li>Formation of offshore companies.</li>
+            <li>Assistance with residency visas and opening of bank accounts in UAE.</li>
+            <li>Drafting of MOA and other legal agreements.</li>
+          </ul>
         </div>
 
         <div className='services_box'>
@@ -86,7 +86,6 @@ export default function Home() {
             <li>Reviewing and amending existing documents to ensure they are legally sound.</li>
           </ul>
         </div>
-
 
         <div className='services_box'>
           <h4>Representation in Legal Matters</h4>
