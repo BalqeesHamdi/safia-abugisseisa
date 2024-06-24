@@ -404,6 +404,32 @@ button:focus-visible {
   padding-bottom: 10px;
 }
 
+.services{
+  padding: 10%;
+}
+
+.services .count {
+  background-color: #c22026;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.services .count h4{
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.services .services_box {
+  padding: 20px;
+  border:solid 1px #c22026;
+  margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  display: flex;
+
+}
+
+
 @media (max-width: 600px) {
   .dubai-artline p {
     width: 100%;
@@ -449,9 +475,11 @@ button:focus-visible {
   .dubai-artline{
     background-size: 100%;
   }
+
   .team_img{
     margin: 0;
   }
+
   .home-overlay .text{
     padding: 20px;
   }

@@ -56,6 +56,78 @@ export default function Home() {
         <p>To be the destination for innovative legal solutions tailored to the dynamic business landscape of Dubai, the Middle East, and North Africa. We aspire to be the go-to platform for startups and SMEs seeking cutting-edge legal expertise that drives growth, fosters innovation, and unlocks opportunities in this vibrant region.
           Is to be known in the MENA for our forward-thinking approach, leveraging technology and innovation to offer cutting-edge legal solutions. We aim to continually exceed client expectations by delivering high-quality, industry-specific legal services that drive success and add value to businesses worldwide.</p>
       </div>
+      <div className='services'>
+        <div className='services_box'>
+          <div className='count'>
+            <h4>Company Formation</h4>
+          </div>
+            <ul>
+              <li>Incorporation of companies, Branch Office, Representative Office and Subsidiary Companies in UAE Free Zones and in Mainland.</li>
+              <li>Formation of offshore companies.</li>
+              <li>Assistance with residency visas and opening of bank accounts in UAE.</li>
+              <li>Drafting of MOA and other legal agreements.</li>
+            </ul>
+        </div>
+
+        <div className='services_box'>
+          <div className='count'>
+            <h4>Legal Advisory and Consultations</h4>
+          </div>
+          <ul>
+            <li>Providing legal opinions.</li>
+            <li>Guidance on compliance with the law.</li>
+          </ul>
+        </div>
+
+        <div className='services_box'>
+          <h4>Drafting and Reviewing Documents</h4>
+          <ul>
+            <li>Drafting contracts, wills, trusts, and other legal documents.</li>
+            <li>Reviewing and amending existing documents to ensure they are legally sound.</li>
+          </ul>
+        </div>
+
+
+        <div className='services_box'>
+          <h4>Representation in Legal Matters</h4>
+          <ul>
+            <li>Representing clients in negotiations and arbitrations.</li>
+          </ul>
+        </div>
+        {/* 
+        <div>
+          <h4>Conveyancing</h4>
+          <ul>
+            <li>Handling the legal aspects of buying and selling property.</li>
+            <li>Ensuring all legal requirements are met in property transactions.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Employment Law</h4>
+          <ul>
+            <li>Advising on employment contracts, disputes, and termination agreements.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Commercial Law</h4>
+          <ul>
+            <li>Advising businesses on corporate structure, mergers, and acquisitions.</li>
+            <li>Preparing of Due – diligence reports.</li>
+            <li>Drafting and reviewing commercial contracts and agreements.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Debt Recovery</h4>
+          <ul>
+            <li>Assisting clients in recovering owed debts through legal means.</li>
+            <li>Advising on bankruptcy and insolvency issues.</li>
+          </ul>
+        </div> */}
+
+      </div>
       <div className="colored-background experties">
         <h1>Experties</h1>
         <div className="boxes-container">
@@ -85,7 +157,7 @@ export default function Home() {
         <h1>Our Team</h1>
         <div className="content team">
           <div className="team_img">
-            <Image src={`${process.env.BASE_URL}/team_safia.png`} alt='' width={100} height={100}/>
+            <Image src={`${process.env.BASE_URL}/team_safia.png`} alt='' width={100} height={100} />
             <div>
               <p>Safia Abugisseisa</p>
             </div>
