@@ -80,8 +80,9 @@ export default function Home() {
           }
         </div>
       </div>
-      <div className="content team">
-        <h1 style={{ left: '20%' }}>Our Team</h1>
+      <div className='team_outer'>
+        <h1>Our Team</h1>
+        <div className="content team">
         <div className="team_img">
           <img src={"./team_safia.png"} />
           <div>
@@ -94,6 +95,7 @@ export default function Home() {
           <p><span style={{ color: "#c22026", fontSize: '1.6rem', fontWeight: '600' }}>Safia Abugisseisa</span>, is a qualified bilingual lawyer, with an intense multi-national legal experience since 2015, University of Khartoum Graduate, member of the Sudanese bar association (In where the legal system adopted is a hybrid of sharia/common law), and qualified to practice as a solicitor in the UAE.</p>
           <p>She comes as a sharp diligent legal counsellor and a self-motivated practitioner. In addition to being resourceful in various laws, She possesses an in-depth experience in #Common law #UAE laws and #Sudan laws (which is a hybrid of sharia common law system).</p>
           <p>Safia possesses a set of professional skills and interpersonal qualities which are vital for delivering integrated services to achieve our clients’ optimum legal coverage. She excels in #Corporate # commercial #Investment law, with a special focus on #telecommunication laws derived from her experience in the #TMT field.</p>
+        </div>
         </div>
       </div>
 
