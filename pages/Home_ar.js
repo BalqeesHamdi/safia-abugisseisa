@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 
 const HomeAr = () => {
   const experties = [
@@ -85,7 +86,7 @@ const HomeAr = () => {
         <h1>فريقنا</h1>
         <div className="content team" dir="rtl">
           <div className="team_img" style={{ marginLeft: '40px' }}>
-            <img src={'/team_safia.png'} style={{transform:'scaleX(-1)'}} />
+            <Image src={`${process.env.BASE_URL}/team_safia.png`} style={{transform:'scaleX(-1)'}} width={100} height={100}/>
             <div>
               <p>صفية أبو قصيصة</p>
             </div>

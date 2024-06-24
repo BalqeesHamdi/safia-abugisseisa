@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const experties = [
@@ -84,7 +85,7 @@ export default function Home() {
         <h1>Our Team</h1>
         <div className="content team">
           <div className="team_img">
-            <img src={'./team_safia.png'} />
+            <Image src={`${process.env.BASE_URL}/team_safia.png`} alt='' width={100} height={100}/>
             <div>
               <p>Safia Abugisseisa</p>
             </div>

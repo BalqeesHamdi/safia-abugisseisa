@@ -1,4 +1,6 @@
 import { useRouter } from 'next/router';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   const router = useRouter();
@@ -8,23 +10,23 @@ const Footer = () => {
     <div className="footer">
       <div>
         <div className="logo">
-          <img src={'/logo_sia.svg'} />
+          <Image src={`${process.env.BASE_URL}/logo_sia.svg`} alt='' width={100} height={100}/>
         </div>
         {pathname === '/' && <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="../pages/about">About</a></li>
-          <li><a href="../pages/experties">Experties</a></li>
-          <li><a href="../pages/people">People</a></li>
-          <li><a href="../pages/news">News</a></li>
-          <li><a href="../pages/contact">Contact Us</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/experties">Experties</Link></li>
+          <li><Link href="/people">People</Link></li>
+          <li><Link href="/news">News</Link></li>
+          <li><Link href="/contact">Contact Us</Link></li>
         </ul>}
         {pathname === '/Home_ar' && <ul dir="rtl" >
-          <li><a href="#intro">عن المكتب</a></li>
-          <li><a href="#mission">مهمتنا</a></li>
-          <li><a href="#vision">رؤيتنا</a></li>
-          <li><a href="#experties">خبراتنا</a></li>
-          <li><a href="#team">فريقنا</a></li>
-          <li><a href="#news">آخر الأخبار</a></li>
+          <li><Link href="#intro">عن المكتب</Link></li>
+          <li><Link href="#mission">مهمتنا</Link></li>
+          <li><Link href="#vision">رؤيتنا</Link></li>
+          <li><Link href="#experties">خبراتنا</Link></li>
+          <li><Link href="#team">فريقنا</Link></li>
+          <li><Link href="#news">آخر الأخبار</Link></li>
         </ul>}
       </div>
       <div className="rights">

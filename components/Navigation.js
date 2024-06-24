@@ -1,4 +1,6 @@
 import { useRouter } from 'next/router';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Nav = () => {
   const router = useRouter();
@@ -6,10 +8,10 @@ const Nav = () => {
   return (
     <>
       <div className="navigation-bar">
-        <img src={'./logo_sia.svg'} />
+        <Image src={`${process.env.BASE_URL}/logo_sia.svg`} alt='' width={100} height={160}/>
         <div >
-          <a href="/" style={pathname === '/' ? { color: '#c22026' } : {}}> <p>English</p></a>
-          <a href={'/Home_ar'} style={pathname === '/Home_ar' ? { color: '#c22026' } : {}}> <p>العربية</p></a>
+          <Link href="/" style={pathname === '/' ? { color: '#c22026' } : {}}> <p>English</p></Link>
+          <Link href={'/Home_ar'} style={pathname === '/Home_ar' ? { color: '#c22026' } : {}}> <p>العربية</p></Link>
         </div>
       </div>
       {pathname === '/' && <ul className="mini-navigation-bar">
