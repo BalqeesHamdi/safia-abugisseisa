@@ -24,6 +24,7 @@ const HomeAr = () => {
     'الاتصالات والإعلام والتكنولوجيا',
     'رأس المال الاستثماري',
   ];
+  
   const [show, setShow] = useState(false);
   return (
     <>
