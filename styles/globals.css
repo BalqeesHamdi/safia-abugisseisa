@@ -398,3 +398,61 @@ button:focus-visible {
 .reversed {
   flex-direction: row-reverse;
 }
+
+.underline{
+  border-bottom: 6px solid #c22026;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .dubai-artline p {
+    width: 100%;
+  }
+  .mini-navigation-bar, .footer div ul {
+    display: none;
+  }
+  .content{
+    height: 100vh;
+  }
+  .team {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .team_content{
+    width: 100%;
+    margin-left:0 ;
+  }
+  .news,.boxes-container{
+    flex-direction: column;
+  }
+
+  .boxes-container .box{
+    width: 100%;
+  }
+
+  .english_news{
+    margin-left: 0;
+  }
+
+  .home-overlay .text h1{
+    font-size: 3rem;
+  }
+
+  .home-overlay .text h3{
+    font-size: 1.4rem;
+  }
+
+  .underline{
+    border-bottom: none;
+  }
+
+  .dubai-artline{
+    background-size: 100%;
+  }
+  .team_img{
+    margin: 0;
+  }
+  .home-overlay .text{
+    padding: 20px;
+  }
+}
