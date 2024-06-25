@@ -27,7 +27,7 @@ export default function Home() {
     'Venture Capital',
   ];
   const [show, setShow] = useState(false);
-  const [section, setSection] = useState("")
+  const [section, setSection] = useState('');
   return (
     <>
       <div className="home-main">
@@ -57,19 +57,18 @@ export default function Home() {
           Is to be known in the MENA for our forward-thinking approach, leveraging technology and innovation to offer cutting-edge legal solutions. We aim to continually exceed client expectations by delivering high-quality, industry-specific legal services that drive success and add value to businesses worldwide.</p>
       </div>
 
-
       <div className='services'>
         <ul>
-          <li onClick={()=>{setSection("company")}} className={section === "company" && "active"}><h4>Company Formation</h4></li>
-          <li onClick={()=>{setSection("legaladvisory")}} className={section === "legaladvisory" && "active"}><h4>Legal Advisory and Consultations</h4></li>
-          <li onClick={()=>{setSection("drafting")}} className={section === "drafting" && "active"}><h4>Drafting and Reviewing Documents</h4></li>
-          <li onClick={()=>{setSection("representation")}} className={section === "representation" && "active"}><h4>Representation in Legal Matters</h4></li>
-          <li onClick={()=>{setSection("conveyancing")}}className={section === "conveyancing" && "active"}><h4>Conveyancing</h4></li>
-          <li onClick={()=>{setSection("employment")}} className={section === "employment" && "active"}><h4>Employment Law</h4></li>
-          <li onClick={()=>{setSection("commercial")}} className={section === "commercial" && "active"}><h4>Commercial Law</h4></li>
-          <li onClick={()=>{setSection("debt")}} className={section === "debt" && "active"} ><h4>Debt Recovery</h4></li>
+          <li onClick={()=>{setSection('company');}} className={section === 'company' && 'active'}><h4>Company Formation</h4></li>
+          <li onClick={()=>{setSection('legaladvisory');}} className={section === 'legaladvisory' && 'active'}><h4>Legal Advisory and Consultations</h4></li>
+          <li onClick={()=>{setSection('drafting');}} className={section === 'drafting' && 'active'}><h4>Drafting and Reviewing Documents</h4></li>
+          <li onClick={()=>{setSection('representation');}} className={section === 'representation' && 'active'}><h4>Representation in Legal Matters</h4></li>
+          <li onClick={()=>{setSection('conveyancing');}}className={section === 'conveyancing' && 'active'}><h4>Conveyancing</h4></li>
+          <li onClick={()=>{setSection('employment');}} className={section === 'employment' && 'active'}><h4>Employment Law</h4></li>
+          <li onClick={()=>{setSection('commercial');}} className={section === 'commercial' && 'active'}><h4>Commercial Law</h4></li>
+          <li onClick={()=>{setSection('debt');}} className={section === 'debt' && 'active'} ><h4>Debt Recovery</h4></li>
         </ul>
-        {section === "company" && <div className='services_content'>
+        {section === 'company' && <div className='services_content'>
           <ol>
             <li>Incorporation of companies, Branch Office, Representative Office and Subsidiary Companies in UAE Free Zones and in Mainland.</li>
             <li>Formation of offshore companies.</li>
@@ -77,37 +76,37 @@ export default function Home() {
             <li>Drafting of MOA and other legal agreements.</li>
           </ol>
         </div>}
-        {section === "legaladvisory" && <div className='services_content'>
+        {section === 'legaladvisory' && <div className='services_content'>
           <ol>
             <li>Providing legal opinions.</li>
             <li>Guidance on compliance with the law..</li>
           </ol>
         </div>}
-        {section === "drafting" && <div className='services_content'>
+        {section === 'drafting' && <div className='services_content'>
           <ol>
             <li>Drafting contracts, wills, trusts, and other legal documents.</li>
             <li>Reviewing and amending existing documents to ensure they are legally sound.</li>
           </ol>
         </div>}
-        {section === "representation" && <div className='services_content'>
+        {section === 'representation' && <div className='services_content'>
           <ol>
             <li>Representing clients in negotiations and arbitrations.</li>
           </ol>
         </div>}
-        {section === "conveyancing" && <div className='services_content'>
+        {section === 'conveyancing' && <div className='services_content'>
           <ol>
             <li>Handling the legal aspects of buying and selling property.</li>
             <li>Ensuring all legal requirements are met in property transactions.</li>
           </ol>
         </div>}
 
-        {section === "employment" && <div className='services_content'>
+        {section === 'employment' && <div className='services_content'>
           <ol>
             <li>Advising on employment contracts, disputes, and termination agreements.</li>
           </ol>
         </div>}
 
-        {section === "commercial" && <div className='services_content'>
+        {section === 'commercial' && <div className='services_content'>
           <ol>
             <li>Advising businesses on corporate structure, mergers, and acquisitions.</li>
             <li>Preparing of Due – diligence reports.</li>
@@ -115,7 +114,7 @@ export default function Home() {
           </ol>
         </div>}
 
-        {section === "debt" && <div className='services_content'>
+        {section === 'debt' && <div className='services_content'>
           <ol>
             <li>Assisting clients in recovering owed debts through legal means.</li>
             <li>Advising on bankruptcy and insolvency issues.</li>
