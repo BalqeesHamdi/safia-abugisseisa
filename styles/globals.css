@@ -422,13 +422,13 @@ button:focus-visible {
   padding: 5px 10px;
 }
 
-.services ul li:hover {
+.services ul li:hover, .active {
   border-bottom: solid 1px#c22026;
   color: #c22026;
   cursor: pointer;
 }
 
-.services div {
+.services .services_content {
   width: 400px;
   padding: 100px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -468,10 +468,13 @@ button:focus-visible {
     flex-direction: column;
   }
 
-  .boxes-container .box {
+  .boxes-container .box,.services ul {
     width: 100%;
   }
 
+  .services .services_content {
+    width: fit-content;
+  }
   .english_news {
     margin-left: 0;
   }
@@ -498,5 +501,17 @@ button:focus-visible {
 
   .home-overlay .text {
     padding: 20px;
+  }
+
+  .services{
+    flex-direction: column;
+  }
+
+  .services .services_content{
+    padding: 20px;
+  }
+
+  .services .services_content ol {
+    padding-left: 20px;
   }
 }
