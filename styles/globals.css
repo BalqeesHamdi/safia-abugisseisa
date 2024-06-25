@@ -291,7 +291,7 @@ button:focus-visible {
   border-radius: 8px;
 }
 
-.team_img img{
+.team_img img {
   width: 100%;
   height: 100%;
 }
@@ -323,7 +323,7 @@ button:focus-visible {
   text-align: left;
 }
 
-.team_outer h1{
+.team_outer h1 {
   text-align: center;
   background-color: #c22026;
   color: #fff;
@@ -399,88 +399,104 @@ button:focus-visible {
   flex-direction: row-reverse;
 }
 
-.underline{
+.underline {
   border-bottom: 6px solid #c22026;
   padding-bottom: 10px;
 }
 
-.services{
+.services {
   padding: 10%;
-}
-
-.services .count {
-  background-color: #c22026;
-  margin-right: 20px;
-  padding: 20px;
-}
-
-.services .count h4{
-  font-size: 1.3rem;
-  color: #fff;
-}
-
-.services .services_box {
-  padding: 20px;
-  border:solid 1px #c22026;
-  margin: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 4px;
   display: flex;
-
+  justify-content: center;
 }
 
+.services ul {
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+  width: 40%;
+}
+
+.services ul li {
+  border-bottom: solid 1px;
+  padding: 5px 10px;
+}
+
+.services ul li:hover {
+  border-bottom: solid 1px#c22026;
+  color: #c22026;
+  cursor: pointer;
+}
+
+.services div {
+  width: 400px;
+  padding: 100px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+}
+
+.services ol li {
+  margin: 15px 0;
+}
 
 @media (max-width: 600px) {
   .dubai-artline p {
     width: 100%;
   }
-  .mini-navigation-bar, .footer div ul {
+
+  .mini-navigation-bar,
+  .footer div ul {
     display: none;
   }
-  .content{
+
+  .content {
     height: 100vh;
   }
+
   .team {
     flex-direction: column;
     height: fit-content;
   }
-  .team_content{
-    width: 100%;
-    margin-left:0 ;
-  }
-  .news,.boxes-container{
-    flex-direction: column;
-  }
 
-  .boxes-container .box{
+  .team_content {
     width: 100%;
-  }
-
-  .english_news{
     margin-left: 0;
   }
 
-  .home-overlay .text h1{
+  .news,
+  .boxes-container {
+    flex-direction: column;
+  }
+
+  .boxes-container .box {
+    width: 100%;
+  }
+
+  .english_news {
+    margin-left: 0;
+  }
+
+  .home-overlay .text h1 {
     font-size: 3rem;
   }
 
-  .home-overlay .text h3{
+  .home-overlay .text h3 {
     font-size: 1.4rem;
   }
 
-  .underline{
+  .underline {
     border-bottom: none;
   }
 
-  .dubai-artline{
+  .dubai-artline {
     background-size: 100%;
   }
 
-  .team_img{
+  .team_img {
     margin: 0;
   }
 
-  .home-overlay .text{
+  .home-overlay .text {
     padding: 20px;
   }
 }

@@ -27,7 +27,7 @@ export default function Home() {
     'Venture Capital',
   ];
   const [show, setShow] = useState(false);
-
+  const [section, setSection] = useState("")
   return (
     <>
       <div className="home-main">
@@ -56,76 +56,71 @@ export default function Home() {
         <p>To be the destination for innovative legal solutions tailored to the dynamic business landscape of Dubai, the Middle East, and North Africa. We aspire to be the go-to platform for startups and SMEs seeking cutting-edge legal expertise that drives growth, fosters innovation, and unlocks opportunities in this vibrant region.
           Is to be known in the MENA for our forward-thinking approach, leveraging technology and innovation to offer cutting-edge legal solutions. We aim to continually exceed client expectations by delivering high-quality, industry-specific legal services that drive success and add value to businesses worldwide.</p>
       </div>
+
+
       <div className='services'>
-        <div className='services_box'>
-          <div className='count'>
-            <h4>Company Formation</h4>
-          </div>
-          <ul>
+        <ul>
+          <li onClick={()=>{setSection("company")}} ><h4>Company Formation</h4></li>
+          <li onClick={()=>{setSection("legaladvisory")}}><h4>Legal Advisory and Consultations</h4></li>
+          <li onClick={()=>{setSection("drafting")}} ><h4>Drafting and Reviewing Documents</h4></li>
+          <li onClick={()=>{setSection("representation")}} ><h4>Representation in Legal Matters</h4></li>
+          <li onClick={()=>{setSection("conveyancing")}}><h4>Conveyancing</h4></li>
+          <li onClick={()=>{setSection("employment")}} ><h4>Employment Law</h4></li>
+          <li onClick={()=>{setSection("commercial")}} ><h4>Commercial Law</h4></li>
+          <li onClick={()=>{setSection("debt")}} ><h4>Debt Recovery</h4></li>
+        </ul>
+        {section === "company" && <div>
+          <ol>
             <li>Incorporation of companies, Branch Office, Representative Office and Subsidiary Companies in UAE Free Zones and in Mainland.</li>
             <li>Formation of offshore companies.</li>
             <li>Assistance with residency visas and opening of bank accounts in UAE.</li>
             <li>Drafting of MOA and other legal agreements.</li>
-          </ul>
-        </div>
-
-        <div className='services_box'>
-          <div className='count'>
-            <h4>Legal Advisory and Consultations</h4>
-          </div>
-          <ul>
+          </ol>
+        </div>}
+        {section === "legaladvisory" && <div>
+          <ol>
             <li>Providing legal opinions.</li>
-            <li>Guidance on compliance with the law.</li>
-          </ul>
-        </div>
-
-        <div className='services_box'>
-          <h4>Drafting and Reviewing Documents</h4>
-          <ul>
+            <li>Guidance on compliance with the law..</li>
+          </ol>
+        </div>}
+        {section === "drafting" && <div>
+          <ol>
             <li>Drafting contracts, wills, trusts, and other legal documents.</li>
             <li>Reviewing and amending existing documents to ensure they are legally sound.</li>
-          </ul>
-        </div>
-
-        <div className='services_box'>
-          <h4>Representation in Legal Matters</h4>
-          <ul>
+          </ol>
+        </div>}
+        {section === "representation" && <div>
+          <ol>
             <li>Representing clients in negotiations and arbitrations.</li>
-          </ul>
-        </div>
-        {/* 
-        <div>
-          <h4>Conveyancing</h4>
-          <ul>
+          </ol>
+        </div>}
+        {section === "conveyancing" && <div>
+          <ol>
             <li>Handling the legal aspects of buying and selling property.</li>
             <li>Ensuring all legal requirements are met in property transactions.</li>
-          </ul>
-        </div>
+          </ol>
+        </div>}
 
-        <div>
-          <h4>Employment Law</h4>
-          <ul>
+        {section === "employment" && <div>
+          <ol>
             <li>Advising on employment contracts, disputes, and termination agreements.</li>
-          </ul>
-        </div>
+          </ol>
+        </div>}
 
-        <div>
-          <h4>Commercial Law</h4>
-          <ul>
+        {section === "commercial" && <div>
+          <ol>
             <li>Advising businesses on corporate structure, mergers, and acquisitions.</li>
             <li>Preparing of Due – diligence reports.</li>
             <li>Drafting and reviewing commercial contracts and agreements.</li>
-          </ul>
-        </div>
+          </ol>
+        </div>}
 
-        <div>
-          <h4>Debt Recovery</h4>
-          <ul>
+        {section === "debt" && <div>
+          <ol>
             <li>Assisting clients in recovering owed debts through legal means.</li>
             <li>Advising on bankruptcy and insolvency issues.</li>
-          </ul>
-        </div> */}
-
+          </ol>
+        </div>}
       </div>
       <div className="colored-background experties">
         <h1>Experties</h1>
