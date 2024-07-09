@@ -32,8 +32,7 @@ const HomeAr = () => {
       <div className="home-main">
         <div className="home-overlay">
           <div className="text">
-            <h1>مكتب<span className='underline'> صفية أبوقصيصة</span> القانوني</h1>
-            <h3 dir="rtl"> نضع التفكير المستقبلي في صميم ممارساته القانونية المبتكرة والمخصصة لتمكين الشركات من الحلول القانونية المبتكرة.</h3>
+            <h1><span className='underline'> صفية أبوقصيصة</span> للإستشارات القانونية</h1>
           </div>
         </div>
       </div>

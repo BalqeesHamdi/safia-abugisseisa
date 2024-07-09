@@ -141,7 +141,7 @@ button:focus-visible {
 }
 
 .home-overlay .text h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .home-overlay .text h3 {
@@ -185,6 +185,7 @@ button:focus-visible {
   color: #fff;
   text-align: center;
   border-radius: 4px;
+  z-index: 10;
 }
 
 .image-block-text p {

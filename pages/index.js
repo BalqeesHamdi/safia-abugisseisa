@@ -34,7 +34,6 @@ export default function Home() {
         <div className="home-overlay">
           <div className="text">
             <h1><span className='underline'>Safia Abugisseisa</span> Law Firm</h1>
-            <h3>A forward-thinking legal practice dedicated to empowering businesses with innovative legal solutions</h3>
           </div>
         </div>
       </div>
