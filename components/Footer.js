@@ -13,21 +13,23 @@ const Footer = () => {
           <Image src={`${process.env.BASE_URL}/logo_sia.png`} alt='' width={100} height={50}/>
         </div>
         {pathname === '/' && <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/experties">Experties</Link></li>
-          <li><Link href="/people">People</Link></li>
-          <li><Link href="/news">News</Link></li>
-          <li><Link href="/contact">Contact Us</Link></li>
-        </ul>}
-        {pathname === '/Home_ar' && <ul dir="rtl" >
-          <li><Link href="#intro">عن المكتب</Link></li>
-          <li><Link href="#mission">مهمتنا</Link></li>
-          <li><Link href="#vision">رؤيتنا</Link></li>
-          <li><Link href="#experties">خبراتنا</Link></li>
-          <li><Link href="#team">فريقنا</Link></li>
-          <li><Link href="#news">آخر الأخبار</Link></li>
-        </ul>}
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#vision">Our Vision</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experties">Experties</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#news">Latest News</a></li>
+      </ul>}
+      {pathname ==='/Home_ar' && <ul dir="rtl">
+        <li ><a href="#intro">عن المكتب</a></li>
+        <li><a href="#mission">مهمتنا</a></li>
+        <li><a href="#vision">رؤيتنا</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#experties">خبراتنا</a></li>
+        <li><a href="#team">فريقنا</a></li>
+        <li><a href="#news">آخر الأخبار</a></li>
+      </ul>}
       </div>
       <div className="rights">
         <p>@2024 All Rights Reserved</p>
