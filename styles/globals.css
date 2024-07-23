@@ -272,7 +272,7 @@ button:focus-visible {
 
 .inner_team {
   background-size: 'contain';
-  height: '100vh';
+  padding: 5% 0;
 }
 
 .team_title {
@@ -299,7 +299,7 @@ button:focus-visible {
   width: 40%;
   margin-left: 20px;
   display: flex;
-  padding-right: 20%;
+  padding-left: 20%;
   padding-top: 0;
   padding-bottom: 0;
   transform: scaleX(-1);
@@ -530,13 +530,13 @@ button:focus-visible {
     flex-direction: column;
   }
 
-  .team_first_col,
+  .team_first_col,.team_sec_col_reverse,
   .team_sec_col {
-    width: 100%;
+    width: 100% !important;
     display: contents;
   }
 
-  .team_first_col_image_container {
+  .team_first_col_image_container, .team_first_col_image_container_reverse{
     display: contents;
   }
 
