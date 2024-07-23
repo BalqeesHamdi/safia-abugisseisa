@@ -185,7 +185,7 @@ export default function Home() {
           <div className="inner_team">
             <div className="team_first_col">
               <div className='team_first_col_image_container_reverse'>
-                <Image src={`${process.env.BASE_URL}/issam.png`} alt='' width={100} height={100} className='team_image'  />
+                <Image src={`${process.env.BASE_URL}/issam.png`} alt='' width={100} height={100} className='team_image' />
               </div>
               <div className="team_sec_col_reverse">
                 <div className='team_member_titel_tight'>
