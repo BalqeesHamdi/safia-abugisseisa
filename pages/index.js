@@ -155,25 +155,25 @@ export default function Home() {
         </div>
       </a>
       <a name="team">
-        <div style={{ paddingTop: '30px' }}>
-          <div style={{ backgroundImage: `url("${process.env.BASE_URL}/Rectangle 40.png")`, backgroundSize: 'contain', height: '100vh' }}>
-            <h1 style={{ textAlign: 'center', paddingBottom: '20px' }}>Our Team</h1>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
-              <div style={{ width: '40%', marginRight: '20px', display: 'flex', paddingLeft: '20%', paddingTop: '0', paddingBottom: '0' }}>
-                <Image src={`${process.env.BASE_URL}/team_safia.png`} alt='' width={100} height={100} style={{ height: '100%', width: '100%' }} />
+        <div className='main_team'>
+          <div className="inner_team">
+            <h1 className="team_title">Our Team</h1>
+            <div className="team_first_col">
+              <div className='team_first_col_image_container'>
+                <Image src={`${process.env.BASE_URL}/team_safia.png`} alt='' width={100} height={100} className='team_image' />
                 <div>
-                  <h1 style={{ margin: '20px 0', fontSize: '70px', marginLeft: '-80px' }}>Safia Abugisseisa</h1>
+                  <h1 className="team_member_title">Safia Abugisseisa</h1>
                 </div>
               </div>
-              <div style={{ width: '50%', paddingRight: '20%' }}>
-                <h2 style={{ padding: '0 0 20px 0', color: '#c22026', borderBottom: 'solid 2px #c22026' }}>Founder & Legal Advisor</h2>
+              <div className="team_sec_col">
+                <h2 className='team_sec_col_member_name'>Founder & Legal Advisor</h2>
                 <p>
                   A qualified bilingual lawyer, with an intense multi-national legal experience since 2015, University of Khartoum Graduate, qualified to practice as a solicitor in the  UAE, and member of the  Sudanese bar association (In where the legal system adopted is a hybrid  of sharia/common law).
                 </p>
                 <p>
                   She comes as a sharp diligent legal counsellor and a  self-motivated practitioner. In addition to being resourceful in various  laws, She possesses an in-depth experience in Common law, UAE laws and  Sudan laws (which is a hybrid of sharia common law system).
                 </p>
-                <p style={{ marginBottom: '0' }}>
+                <p>
                   Safia  possesses a set of professional skills and interpersonal qualities  which are vital for delivering integrated services to achieve our  clients’ optimum legal coverage. She excels in Corporate, commercial and Investment law, with a special focus on Telecommunication laws derived  from her experience in the TMT field.
                 </p>
               </div>
@@ -181,21 +181,21 @@ export default function Home() {
           </div>
         </div>
 
-        <div style={{ paddingTop: '30px', direction: 'rtl' }}>
-          <div style={{ backgroundImage: `url("${process.env.BASE_URL}/Rectangle 40.png")`, backgroundSize: 'contain', height: '100vh' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
-              <div style={{ width: '40%', marginLeft: '20px', display: 'flex', paddingRight: '20%', paddingTop: '0', paddingBottom: '0' }}>
-                <Image src={`${process.env.BASE_URL}/issam.png`} alt='' width={100} height={100} style={{ height: '100%', width: '100%', transform: 'scaleX(-1)' }} />
+        <div className="main_team" style={{direction:'rtl'}}>
+          <div className="inner_team">
+            <div className="team_first_col">
+              <div className='team_first_col_image_container_reverse'>
+                <Image src={`${process.env.BASE_URL}/issam.png`} alt='' width={100} height={100} className='team_image'  />
               </div>
-              <div style={{ width: '50%', paddingLeft: '20%' }}>
-                <div style={{ marginRight: '-100px', width: '80%' }}>
-                  <h1 style={{ margin: '20px 0', fontSize: '70px' }}>Mr. Issam Abugisseisa</h1>
+              <div className="team_sec_col_reverse">
+                <div className='team_member_titel_tight'>
+                  <h1 className="team_member_title">Mr. Issam Abugisseisa</h1>
                 </div>
                 <h2 style={{ padding: '0 0 20px 0', color: '#c22026', borderBottom: 'solid 2px #c22026' }}>Senior Consultant</h2>
                 <p>
                   Is a senior professional with diversified experience since 1975, has his LLB from Cairo University- Sudan branch, and post graduate Studies from University of Bristol - UK.              </p>
                 <p>
-                  Issam Abugisseisa practiced  in all fields of business Law, financial Laws, Maritime law, International Trade, Fintech and Intellectual property, with extensive  experience in Islamic_Banking and Islamic Financial Laws in general.              </p>
+                  Issam Abugisseisa practiced  in all fields of business Law, financial Laws, Maritime law, International Trade, Fintech and Intellectual property, with extensive  experience in Islamic_Banking and Islamic Financial Laws in general.</p>
                 <p style={{ marginBottom: '0' }}>
                   He practiced as a Licensed Federal Advocate, and practicing now as a Legal consultant in Sudan and UAE.  He worked as a Legal & Shariah  Adviser for several Islamic Leading Banks and commercial corporates in the UAE and MENA Region, and   recognized by the UAE Central Bank as a Shariah Adviser  & Controller and listed as an Islamic finance law expert with Dubai courts .              </p>
               </div>
