@@ -601,6 +601,7 @@ button:focus-visible {
   }
 
   .image-block-text{
-    margin: 0;
+    margin: 0 !important;
+    width: 100%;
   }
 }
