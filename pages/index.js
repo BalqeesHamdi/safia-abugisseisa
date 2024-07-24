@@ -191,7 +191,7 @@ export default function Home() {
                 <div className='team_member_titel_tight'>
                   <h1 className="team_member_title">Mr. Issam Abugisseisa</h1>
                 </div>
-                <h2 style={{ padding: '0 0 20px 0', color: '#c22026', borderBottom: 'solid 2px #c22026' }}>Senior Consultant</h2>
+                <h2 className="team_member_rule">Senior Consultant</h2>
                 <p>
                   Is a senior professional with diversified experience since 1975, has his LLB from Cairo University- Sudan branch, and post graduate Studies from University of Bristol - UK.              </p>
                 <p>

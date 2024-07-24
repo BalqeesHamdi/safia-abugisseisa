@@ -124,7 +124,7 @@ const HomeAr = () => {
                 <div className='team_member_titel_tight'>
                   <h1 className="team_member_title" style={{width:'70px'}}>عصام أبوقصيصة</h1>
                 </div>
-                <h2 style={{ padding: '0 0 20px 0', color: '#c22026', borderBottom: 'solid 2px #c22026' }}>Senior Consultant</h2>
+                <h2 className="team_member_rule" >Senior Consultant</h2>
                 <p>
                   عصام أبو قصيصة، محام ذو خبرة متنوعة منذ عام 1975، حاصل على درجة البكالوريوس في القانون من جامعة القاهرة - فرع السودان، ودراسات عليا من جامعة بريستول - المملكة المتحدة.</p>
                 <p>
