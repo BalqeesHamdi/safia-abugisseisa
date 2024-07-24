@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <>
       <div className="navigation-bar">
-        <Image src={`${process.env.BASE_URL}/logo_sia.png`} alt='' width={100} height={50}/>
+        <Image src={`../public/logo_sia.png`} alt='' width={100} height={50}/>
         <div >
           <Link href="/" style={pathname === '/' ? { color: '#c22026' } : {}}> <p>English</p></Link>
           <Link href={'/Home_ar'} style={pathname === '/Home_ar' ? { color: '#c22026' } : {}}> <p>العربية</p></Link>
