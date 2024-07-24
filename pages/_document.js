@@ -17,12 +17,12 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet" />
-          <meta property="description" content="We at Safia Abu Gisseisa, understand the importance of staying ahead in today's interconnected global business landscape. Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients." />
+          <meta property="description" content="We understand the importance of staying ahead in today's interconnected global business landscape. Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients." />
           <meta property="og:image" content="/sia_logo.jpeg"></meta>
           <meta property="og:site_name" content="Safia Abugisseisa Law Firm"></meta>
           <meta property="og:title" content="Safia Abugisseisa Law Firm"></meta>
           <meta property="og:url" content="www.safiaabugisseisa.com"></meta>
-          <meta property="og:description" content="We at Safia Abu Gisseisa, understand the importance of staying ahead in today's interconnected global business landscape. Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients." />
+          <meta property="og:description" content="We understand the importance of staying ahead in today's interconnected global business landscape. Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients." />
         </Head>
         <body>
           <Main />
