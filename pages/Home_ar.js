@@ -97,7 +97,7 @@ const HomeAr = () => {
             <div className="team_first_col">
               <div className='team_first_col_image_container'>
                 <Image src={'/team_safia.png'} alt='' width={100} height={100} className='team_image' />
-                <div>
+                <div className='team_member_titel_tight'>
                   <h1 className="team_member_title">صفية أبوقصيصة</h1>
                 </div>
               </div>

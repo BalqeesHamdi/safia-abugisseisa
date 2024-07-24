@@ -604,4 +604,8 @@ button:focus-visible {
     margin: 0 !important;
     width: 100%;
   }
+
+  .show-button{
+    color: #c22026;
+  }
 }
