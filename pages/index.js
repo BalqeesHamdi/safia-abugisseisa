@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </a>
       <a name="vision">
-        <div className="content full dubai-artline">
+        <div className="dubai-artline">
           <h1>Our Vision</h1>
           <p>To be the destination for innovative legal solutions tailored to the dynamic business landscape of Dubai, the Middle East, and North Africa. We aspire to be the go-to platform for startups and SMEs seeking cutting-edge legal expertise that drives growth, fosters innovation, and unlocks opportunities in this vibrant region.
             Is to be known in the MENA for our forward-thinking approach, leveraging technology and innovation to offer cutting-edge legal solutions. We aim to continually exceed client expectations by delivering high-quality, industry-specific legal services that drive success and add value to businesses worldwide.</p>
