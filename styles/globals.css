@@ -617,4 +617,8 @@ button:focus-visible {
   .experties{
     margin-top: 40px;
   }
+
+  .news_reverse{
+    flex-direction: column-reverse;
+  }
 }
