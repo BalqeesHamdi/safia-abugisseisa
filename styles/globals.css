@@ -613,4 +613,8 @@ button:focus-visible {
   .show-button{
     color: #c22026;
   }
+
+  .experties{
+    margin-top: 40px;
+  }
 }
