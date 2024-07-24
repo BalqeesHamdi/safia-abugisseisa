@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div>
         <div className="logo">
-          <Image src={'../public/logo_sia.png'} alt='' width={100} height={50}/>
+          <Image src={'/logo_sia.png'} alt='' width={100} height={50}/>
         </div>
         {pathname === '/' && <ul>
           <li><a href="#intro">Intro</a></li>

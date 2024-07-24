@@ -160,7 +160,7 @@ export default function Home() {
             <h1 className="team_title">Our Team</h1>
             <div className="team_first_col">
               <div className='team_first_col_image_container'>
-                <Image src={'../public/team_safia.png'} alt='' width={100} height={100} className='team_image' />
+                <Image src={'/team_safia.png'} alt='' width={100} height={100} className='team_image' />
                 <div>
                   <h1 className="team_member_title">Safia Abugisseisa</h1>
                 </div>
@@ -185,7 +185,7 @@ export default function Home() {
           <div className="inner_team">
             <div className="team_first_col">
               <div className='team_first_col_image_container_reverse'>
-                <Image src={'../public/issam.png'} alt='' width={100} height={100} className='team_image' />
+                <Image src={'/issam.png'} alt='' width={100} height={100} className='team_image' />
               </div>
               <div className="team_sec_col_reverse">
                 <div className='team_member_titel_tight'>
