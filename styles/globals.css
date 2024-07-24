@@ -595,4 +595,12 @@ button:focus-visible {
   .team_sec_col_reverse h2, .team_sec_col h2, .team_sec_col p {
     padding: 0 30px;
   }
+
+  .image-block .image{
+    display: none;
+  }
+
+  .image-block-text{
+    margin: 0;
+  }
 }
