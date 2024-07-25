@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <a name="intro">
         <div className="content">
-          <p>We at Safia Abu Gisseisa, understand the importance of staying ahead in today&apos;s interconnected global business landscape.
+          <p style={{textAlign:'justify', textAlignLast:'center'}}>We at Safia Abu Gisseisa, understand the importance of staying ahead in today&apos;s interconnected global business landscape.
             Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients.
             With a focus on speed and efficiency, we strive to deliver seamless advice that is underpinned by deep industry knowledge and expertise.
             Our contemporary approach, combines with a commitment to excellence, sets us apart as a trusted partner for businesses seeking strategic legal support.</p>
@@ -196,7 +196,7 @@ export default function Home() {
                   Is a senior professional with diversified experience since 1975, has his LLB from Cairo University- Sudan branch, and post graduate Studies from University of Bristol - UK.              </p>
                 <p>
                   Issam Abugisseisa practiced  in all fields of business Law, financial Laws, Maritime law, International Trade, Fintech and Intellectual property, with extensive  experience in Islamic_Banking and Islamic Financial Laws in general.</p>
-                <p style={{ marginBottom: '0' }}>
+                <p>
                   He practiced as a Licensed Federal Advocate, and practicing now as a Legal consultant in Sudan and UAE.  He worked as a Legal & Shariah  Adviser for several Islamic Leading Banks and commercial corporates in the UAE and MENA Region, and   recognized by the UAE Central Bank as a Shariah Adviser  & Controller and listed as an Islamic finance law expert with Dubai courts .              </p>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function Home() {
           <h1>Latest News</h1>
           <div className="news_scroll">
             <div className="news_block">
-              <p className="english_news">Weare delighted to announce our Strategic partnership with The Hamdan Rashoud Al-Zayoudi Law Firm represented by Mr. HamdanRashid Ali Rashoud AlZeyoudi  (A Former Appeal Judge, and a litigation Lawyer licensed to practise law before all UAE courts of all jurisdictions), a collaboration that promises to enhance our services and provide comprehensive legal solutions. By combining our strengths and expertise, we aim to deliver a holistic approach to safeguarding our commercial endeavours. Their emphasis on pre-emptive measures and expertise in dispute resolution, coupled with our commitment to excellence and client advocacy, will ensure expert representation and strategic guidance for optimal outcomes. Together, we will leverage our unique strengths to provide a seamless and comprehensive service that meets the diverse needs of our clients.</p>
+              <p className="english_news">We are delighted to announce our Strategic partnership with The Hamdan Rashoud Al-Zayoudi Law Firm represented by Mr. HamdanRashid Ali Rashoud AlZeyoudi  (A Former Appeal Judge, and a litigation Lawyer licensed to practise law before all UAE courts of all jurisdictions), a collaboration that promises to enhance our services and provide comprehensive legal solutions. By combining our strengths and expertise, we aim to deliver a holistic approach to safeguarding our commercial endeavours. Their emphasis on pre-emptive measures and expertise in dispute resolution, coupled with our commitment to excellence and client advocacy, will ensure expert representation and strategic guidance for optimal outcomes. Together, we will leverage our unique strengths to provide a seamless and comprehensive service that meets the diverse needs of our clients.</p>
             </div>
           </div>
         </div>

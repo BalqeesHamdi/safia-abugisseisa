@@ -53,7 +53,6 @@ button:focus-visible {
 .navigation-bar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #fff;
   margin: 0;
   padding: 10px;
@@ -189,6 +188,8 @@ button:focus-visible {
 
 .image-block-text p {
   font-size: 1.3rem;
+  text-align: justify !important;
+  text-align-last: center !important;
 }
 
 .dubai-artline {
@@ -209,7 +210,8 @@ button:focus-visible {
 }
 
 .dubai-artline p {
-  text-align: left;
+  text-align: justify !important;
+  text-align-last: left;
   width: 900px;
 }
 
@@ -312,11 +314,20 @@ button:focus-visible {
   padding-right: 20%;
 }
 
+.team_sec_col p {
+  text-align: justify !important;
+  text-align-last: left;
+}
+
 .team_sec_col_reverse {
   width: 50%;
   padding-left: 20%;
 }
 
+.team_sec_col_reverse p {
+  text-align: justify !important;
+  text-align-last: right;
+}
 
 .team_image {
   height: 100%;
@@ -360,7 +371,8 @@ button:focus-visible {
   border-right: solid #dcdcdc 0.5px !important;
   border-left: solid #c22026 4px !important;
   margin-left: 40px;
-  text-align: left !important;
+  text-align: justify !important;
+  text-align-last: left !important;
 }
 
 .footer {
@@ -454,6 +466,8 @@ button:focus-visible {
   color: #c22026;
   border-bottom: solid 2px #c22026;
 }
+
+
 
 @media (max-width: 600px) {
   .dubai-artline p {
@@ -582,43 +596,47 @@ button:focus-visible {
     padding: 0;
   }
 
-  .team_member_titel_tight, .team_member_title {
+  .team_member_titel_tight,
+  .team_member_title {
     background-color: #c22026;
     width: 100%;
   }
 
-  .team_member_title{
+  .team_member_title {
     width: fit-content;
   }
 
   .team_sec_col_reverse p,
-  .team_sec_col_reverse h2, .team_sec_col h2, .team_sec_col p {
+  .team_sec_col_reverse h2,
+  .team_sec_col h2,
+  .team_sec_col p {
     padding: 0 30px;
   }
 
 
-  .team_sec_col_reverse h2, .team_sec_col h2 {
+  .team_sec_col_reverse h2,
+  .team_sec_col h2 {
     padding: 20px 30px;
   }
 
-  .image-block .image{
+  .image-block .image {
     display: none;
   }
 
-  .image-block-text{
+  .image-block-text {
     margin: 0 !important;
     width: 100%;
   }
 
-  .show-button{
+  .show-button {
     color: #c22026;
   }
 
-  .experties{
+  .experties {
     margin-top: 40px;
   }
 
-  .news_reverse{
+  .news_reverse {
     flex-direction: column-reverse;
   }
 }
