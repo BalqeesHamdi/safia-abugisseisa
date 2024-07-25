@@ -9,6 +9,21 @@ const nextConfig = {
     unoptimized:true
   },
   basePath: '',
+  async headers() {
+    const headers = [];
+    if (process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview') {
+      headers.push({
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'index',
+          },
+        ],
+        source: '/:path*',
+      });
+    }
+    return headers;
+  },
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
