@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" type="image/svg+xml" href="/Safia_Abugisseisa_Law_Firm_Logo.jpeg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
             integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
             crossOrigin="anonymous" referrerPolicy="no-referrer" />
