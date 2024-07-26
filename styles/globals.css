@@ -7,7 +7,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 
@@ -30,25 +29,27 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 50px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #c22026;
+  color: #fff;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 5px 0;
+}
+
+button a {
+  color: #fff !important;
 }
 
 button:hover {
-  border-color: #646cff;
+  background-color: #df252c;
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 .navigation-bar {
   display: flex;
@@ -467,7 +468,41 @@ button:focus-visible {
   border-bottom: solid 2px #c22026;
 }
 
+.contact_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c22026;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 5% 0;
+}
 
+.contact_container .contact_info div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  font-size: 18px;
+  width: 50%;
+}
+
+.contact_container .contact_info div p {
+  width: 100%; 
+}
+
+.contact_container i {
+ width: 20px;
+ margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.contact_container .contact_info h1 {
+  color: #fff;
+  border-bottom: solid #fff 2px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+}
 
 @media (max-width: 600px) {
   .dubai-artline p {
@@ -638,5 +673,14 @@ button:focus-visible {
 
   .news_reverse {
     flex-direction: column-reverse;
+  }
+
+  .contact_container{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact_container iframe,.contact_container .contact_info div {
+    width: 100%;
   }
 }

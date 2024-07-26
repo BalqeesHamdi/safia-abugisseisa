@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function Home() {
   const experties = [
@@ -30,16 +31,19 @@ export default function Home() {
   const [section, setSection] = useState('company');
   return (
     <>
+      <Head>
+        <title>Safia Abugisseisa Law Firm</title>
+      </Head>
       <div className="home-main">
         <div className="home-overlay">
           <div className="text">
-            <h1><span className='underline'>Safia Abugisseisa</span> Law Firm</h1>
+            <h1><span className='underline'>Safia Abugisseisa</span>Law Firm</h1>
           </div>
         </div>
       </div>
       <a name="intro">
         <div className="content">
-          <p style={{textAlign:'justify', textAlignLast:'center'}}>We at Safia Abu Gisseisa, understand the importance of staying ahead in today&apos;s interconnected global business landscape.
+          <p style={{ textAlign: 'justify', textAlignLast: 'center' }}>We at Safia Abu Gisseisa, understand the importance of staying ahead in today&apos;s interconnected global business landscape.
             Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients.
             With a focus on speed and efficiency, we strive to deliver seamless advice that is underpinned by deep industry knowledge and expertise.
             Our contemporary approach, combines with a commitment to excellence, sets us apart as a trusted partner for businesses seeking strategic legal support.</p>
@@ -181,7 +185,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="main_team" style={{direction:'rtl'}}>
+        <div className="main_team" style={{ direction: 'rtl' }}>
           <div className="inner_team">
             <div className="team_first_col">
               <div className='team_first_col_image_container_reverse'>
@@ -211,6 +215,26 @@ export default function Home() {
               <p className="english_news">We are delighted to announce our Strategic partnership with The Hamdan Rashoud Al-Zayoudi Law Firm represented by Mr. HamdanRashid Ali Rashoud AlZeyoudi  (A Former Appeal Judge, and a litigation Lawyer licensed to practise law before all UAE courts of all jurisdictions), a collaboration that promises to enhance our services and provide comprehensive legal solutions. By combining our strengths and expertise, we aim to deliver a holistic approach to safeguarding our commercial endeavours. Their emphasis on pre-emptive measures and expertise in dispute resolution, coupled with our commitment to excellence and client advocacy, will ensure expert representation and strategic guidance for optimal outcomes. Together, we will leverage our unique strengths to provide a seamless and comprehensive service that meets the diverse needs of our clients.</p>
             </div>
           </div>
+        </div>
+      </a>
+      <a name="contact">
+        <div className='contact_container'>
+          <div className='contact_info'>
+            <h1>Contact Us</h1>
+            <div>
+              <i className="fas fa-fw fa-phone" /> 
+              <p>+971 56 272 5557</p>
+            </div>
+            <div>
+              <i className="fa fa-envelope" /> 
+              <p>Info@safiaabugisseisa.com</p>
+            </div>
+            <div>
+              <i className="fas fa-fw fa-map-pin" /> 
+              <p>API World Tower - Ground Floor Sheokh Zayed Road,Trade Center Dubai, United Arab Emirates </p>
+            </div>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.3089157270983!2d55.28321611714611!3d25.225360010848114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134e609581e1%3A0x6947d732a1d95d91!2sAPI%20WORLD%20TOWER!5e0!3m2!1sen!2seg!4v1721991176785!5m2!1sen!2seg" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </a>
     </>

@@ -19,7 +19,6 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet" />
           <meta property="description" content="We understand the importance of staying ahead in today's interconnected global business landscape. Our commitment to leveraging technology and innovation allows us to provide tailored legal solutions that meet the evolving needs of our clients." />
           <meta property="og:image" content="/Safia_Abugisseisa_Law_Firm_Logo.jpeg"></meta>
-          <title>Safia Abugisseisa Law Firm | مكتب صفية أبو قصيصة الفانوني</title>
           <meta property="og:site_name" content="Safia Abugisseisa Law Firm"></meta>
           <meta property="og:title" content="Safia Abugisseisa Law Firm"></meta>
           <meta property="og:url" content="www.safiaabugisseisa.com"></meta>

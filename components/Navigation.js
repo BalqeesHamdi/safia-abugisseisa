@@ -15,22 +15,20 @@ const Nav = () => {
         </div>
       </div>
       {pathname === '/' && <ul className="mini-navigation-bar">
-        <li className="active"><a href="#intro">Intro</a></li>
-        <li><a href="#mission">Our Mission</a></li>
-        <li><a href="#vision">Our Vision</a></li>
+        <li><a href="#intro">Intro</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#experties">Experties</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#news">Latest News</a></li>
+        <button><a href="#contact" className='button'>Contact Us</a></button>
       </ul>}
       {pathname ==='/Home_ar' && <ul dir="rtl" className="mini-navigation-bar">
-        <li className="active"><a href="#intro">عن المكتب</a></li>
-        <li><a href="#mission">مهمتنا</a></li>
-        <li><a href="#vision">رؤيتنا</a></li>
+        <li><a href="#intro">عن المكتب</a></li>
         <li><a href="#services">خدماتنا</a></li>
         <li><a href="#experties">خبراتنا</a></li>
         <li><a href="#team">فريقنا</a></li>
         <li><a href="#news">آخر الأخبار</a></li>
+        <button><a href="#contact" className='button'>تواصل معنا</a></button>
       </ul>}
     </>
   );

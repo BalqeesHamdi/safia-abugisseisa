@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const HomeAr = () => {
   const experties = [
@@ -29,6 +30,9 @@ const HomeAr = () => {
   const [show, setShow] = useState(false);
   return (
     <>
+      <Head>
+        <title>مكتب صفية أبو قصيصة الفانوني</title>
+      </Head>
       <div className="home-main">
         <div className="home-overlay">
           <div className="text">
@@ -38,7 +42,7 @@ const HomeAr = () => {
       </div>
       <a name="intro">
         <div className="content">
-          <p style={{textAlign:'justify',textAlignLast:'center',direction:'rtl'}}>صفية أبوقصيصة هو مكتب قانوني يضع التفكير المستقبلي في صميم ممارساته القانونية المبتكرة والمخصصة لتمكين الشركات من الحلول القانونية المبتكرة.
+          <p style={{ textAlign: 'justify', textAlignLast: 'center', direction: 'rtl' }}>صفية أبوقصيصة هو مكتب قانوني يضع التفكير المستقبلي في صميم ممارساته القانونية المبتكرة والمخصصة لتمكين الشركات من الحلول القانونية المبتكرة.
             نحن في صفية أبو قصيصة ، ندرك أهمية البقاء في طليعة المشهد التجاري العالمي المترابط في الوقت الحاضر.
             التزامنا بالاستفادة من التكنولوجيا والابتكار يتيح لنا تقديم حلول قانونية مخصصة تلبي الاحتياجات المتطورة لعملائنا. مع التركيز على السرعة والكفاءة، نسعى لتقديم نصائح سلسة ترتكز على المعرفة العميقة والخبرة المهنية.
             نهجنا المعاصر، بالاشتراك مع التزامنا بالتميز، يميزنا كشريك موثوق به للشركات التي تبحث عن دعم قانوني استراتيجي.</p>
@@ -47,7 +51,7 @@ const HomeAr = () => {
       <a name="mission">
         <div className="image-block reversed">
           <div className="image"></div>
-          <div className="image-block-text" style={{ marginRight: '-150px',direction:'rtl' }}>
+          <div className="image-block-text" style={{ marginRight: '-150px', direction: 'rtl' }}>
             <h1>مهمتنا</h1>
             <p>مهمتنا هي دعم الشركات الناشئة والشركات الصغيرة والمتوسطة، وتعزيز الابتكار والنمو والفرص باستمرار من خلال تقديم الحلول القانونية المبتكرة التي تتجاوب مع احتياجات السرعة في منظومة الأعمال الحالية.
               بالتركيز على دعم الابتكار وريادة الأعمال، نهدف إلى تقديم حلول قانونية مخصصة تتناسب مع التحديات المحددة التي تواجه هذه الفئات الديناميكية.
@@ -122,9 +126,9 @@ const HomeAr = () => {
               </div>
               <div className="team_sec_col_reverse">
                 <div className='team_member_titel_tight'>
-                  <h1 className="team_member_title" style={{width:'70px'}}>عصام أبوقصيصة</h1>
+                  <h1 className="team_member_title" style={{ width: '70px' }}>عصام أبوقصيصة</h1>
                 </div>
-                <h2 className="team_member_rule" >Senior Consultant</h2>
+                <h2 className="team_member_rule" > كبير المستشارين</h2>
                 <p>
                   عصام أبو قصيصة، محام ذو خبرة متنوعة منذ عام 1975، حاصل على درجة البكالوريوس في القانون من جامعة القاهرة - فرع السودان، ودراسات عليا من جامعة بريستول - المملكة المتحدة.</p>
                 <p>
@@ -141,14 +145,35 @@ const HomeAr = () => {
         <div className="content news news_reverse">
           <div className="news_scroll">
             <div className="news_block" dir="rtl">
-              <p style={{ textAlign: 'right', marginRight: '40px',textAlignLast:'right' }}>يسرنا أن نعلن عن شراكتنا الاستراتيجية مع مكتب حمدان رشود الزيودي للمحاماة، الذي يمثله السيد حمدان راشد علي رشود الزيودي، )قاضي استئناف سابق ومحام مرخص له بالتقاضي امام كافة المحاكم بدولة الامارات العربية المتحدة) وهي شراكة تعد بتعزيز خدماتنا وتوفير حلول قانونية شاملة. من خلال دمج قوتنا وخبرتنا، نهدف إلى تقديم نهج شامل لحماية جهودنا التجارية. تأكيدهم على التدابير الوقائية وخبرتهم في حل النزاعات، جنبًا إلى جنب مع التزامنا بالتميز وتكريس جهودنا وخلاصة معرفتنا لتحقيق مصلحة العمي ، سيضمن التمثيل الخبير والإرشاد الاستراتيجي لتحقيق النتائج المثلى. سنستغل معًا تضامننا لتقديم خدمة شاملة وسلسة تلبي الاحتياجات المتنوعة لعملائنا.</p>
+              <p style={{ textAlign: 'right', marginRight: '40px', textAlignLast: 'right' }}>يسرنا أن نعلن عن شراكتنا الاستراتيجية مع مكتب حمدان رشود الزيودي للمحاماة، الذي يمثله السيد حمدان راشد علي رشود الزيودي، )قاضي استئناف سابق ومحام مرخص له بالتقاضي امام كافة المحاكم بدولة الامارات العربية المتحدة) وهي شراكة تعد بتعزيز خدماتنا وتوفير حلول قانونية شاملة. من خلال دمج قوتنا وخبرتنا، نهدف إلى تقديم نهج شامل لحماية جهودنا التجارية. تأكيدهم على التدابير الوقائية وخبرتهم في حل النزاعات، جنبًا إلى جنب مع التزامنا بالتميز وتكريس جهودنا وخلاصة معرفتنا لتحقيق مصلحة العمي ، سيضمن التمثيل الخبير والإرشاد الاستراتيجي لتحقيق النتائج المثلى. سنستغل معًا تضامننا لتقديم خدمة شاملة وسلسة تلبي الاحتياجات المتنوعة لعملائنا.</p>
             </div>
           </div>
           <h1>آخر الأخبار</h1>
         </div>
       </a>
+
+      <a name="contact">
+        <div className='contact_container'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.3089157270983!2d55.28321611714611!3d25.225360010848114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134e609581e1%3A0x6947d732a1d95d91!2sAPI%20WORLD%20TOWER!5e0!3m2!1sen!2seg!4v1721991176785!5m2!1sen!2seg" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div className='contact_info' style={{textAlign:'left', marginLeft:'40px'}}>
+            <h1>تواصل معنا</h1>
+            <div>
+              <i className="fas fa-fw fa-phone" />
+              <p style={{direction:'ltr'}}>+971 56 272 5557</p>
+            </div>
+            <div>
+              <i className="fa fa-envelope" />
+              <p>Info@safiaabugisseisa.com</p>
+            </div>
+            <div>
+              <i className="fas fa-fw fa-map-pin" />
+              <p>API World Tower - Ground Floor Sheokh Zayed Road,Trade Center Dubai, United Arab Emirates </p>
+            </div>
+          </div>
+        </div> 
+      </a>
     </>
-  );
+  ); 
 };
 
 export default HomeAr;
