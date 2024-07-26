@@ -154,7 +154,7 @@ const HomeAr = () => {
 
       <a name="contact">
         <div className='contact_container'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.3089157270983!2d55.28321611714611!3d25.225360010848114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134e609581e1%3A0x6947d732a1d95d91!2sAPI%20WORLD%20TOWER!5e0!3m2!1sen!2seg!4v1721991176785!5m2!1sen!2seg" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.3089157270983!2d55.28321611714611!3d25.225360010848114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134e609581e1%3A0x6947d732a1d95d91!2sAPI%20WORLD%20TOWER!5e0!3m2!1sen!2seg!4v1721991176785!5m2!1sen!2seg" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div className='contact_info' style={{textAlign:'left', marginLeft:'40px'}}>
             <h1>تواصل معنا</h1>
             <div>
