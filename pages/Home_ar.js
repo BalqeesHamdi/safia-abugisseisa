@@ -31,7 +31,7 @@ const HomeAr = () => {
   return (
     <>
       <Head>
-        <title>مكتب صفية أبو قصيصة الفانوني</title>
+        <title>مكتب صفية أبو قصيصة القانوني</title>
       </Head>
       <div className="home-main">
         <div className="home-overlay">
