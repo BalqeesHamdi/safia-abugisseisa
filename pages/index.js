@@ -165,11 +165,11 @@ export default function Home() {
             <div className="team_first_col">
               <div className='team_first_col_image_container'>
                 <Image src={'/team_safia.png'} alt='' width={100} height={100} className='team_image' />
-                <div>
-                  <h1 className="team_member_title">Safia Abugisseisa</h1>
-                </div>
               </div>
               <div className="team_sec_col">
+                <div style={{width:"70%"}}>
+                  <h1 className="team_member_title">Safia Abugisseisa</h1>
+                </div>
                 <h2 className='team_sec_col_member_name'>Founder & Legal Advisor</h2>
                 <p>
                   A qualified bilingual lawyer, with an intense multi-national legal experience since 2015, University of Khartoum Graduate, qualified to practice as a solicitor in the  UAE, and member of the  Sudanese bar association (In where the legal system adopted is a hybrid  of sharia/common law).
@@ -177,7 +177,7 @@ export default function Home() {
                 <p>
                   She comes as a sharp diligent legal counsellor and a  self-motivated practitioner. In addition to being resourceful in various  laws, She possesses an in-depth experience in Common law, UAE laws and  Sudan laws (which is a hybrid of sharia common law system).
                 </p>
-                <p>
+                <p style={{marginBottom:'0'}}>
                   Safia  possesses a set of professional skills and interpersonal qualities  which are vital for delivering integrated services to achieve our  clients’ optimum legal coverage. She excels in Corporate, commercial and Investment law, with a special focus on Telecommunication laws derived  from her experience in the TMT field.
                 </p>
               </div>
@@ -200,7 +200,7 @@ export default function Home() {
                   Is a senior professional with diversified experience since 1975, has his LLB from Cairo University- Sudan branch, and post graduate Studies from University of Bristol - UK.              </p>
                 <p>
                   Issam Abugisseisa practiced  in all fields of business Law, financial Laws, Maritime law, International Trade, Fintech and Intellectual property, with extensive  experience in Islamic_Banking and Islamic Financial Laws in general.</p>
-                <p>
+                  <p style={{marginBottom:'0'}}>
                   He practiced as a Licensed Federal Advocate, and practicing now as a Legal consultant in Sudan and UAE.  He worked as a Legal & Shariah  Adviser for several Islamic Leading Banks and commercial corporates in the UAE and MENA Region, and   recognized by the UAE Central Bank as a Shariah Adviser  & Controller and listed as an Islamic finance law expert with Dubai courts .              </p>
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function Home() {
             </div>
             <div>
               <i className="fas fa-fw fa-map-pin" /> 
-              <p>API World Tower - Ground Floor Sheokh Zayed Road,Trade Center Dubai, United Arab Emirates </p>
+              <p>API World Tower - Ground Floor Sheokh Zayed Road,Trade CenterDubai, United Arab Emirates </p>
             </div>
           </div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.3089157270983!2d55.28321611714611!3d25.225360010848114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f134e609581e1%3A0x6947d732a1d95d91!2sAPI%20WORLD%20TOWER!5e0!3m2!1sen!2seg!4v1721991176785!5m2!1sen!2seg" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
