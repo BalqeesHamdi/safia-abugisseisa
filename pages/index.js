@@ -167,7 +167,7 @@ export default function Home() {
                 <Image src={'/team_safia.png'} alt='' width={100} height={100} className='team_image' />
               </div>
               <div className="team_sec_col">
-                <div style={{width:"70%"}}>
+                <div style={{width:'70%'}}>
                   <h1 className="team_member_title">Safia Abugisseisa</h1>
                 </div>
                 <h2 className='team_sec_col_member_name'>Founder & Legal Advisor</h2>
@@ -200,7 +200,7 @@ export default function Home() {
                   Is a senior professional with diversified experience since 1975, has his LLB from Cairo University- Sudan branch, and post graduate Studies from University of Bristol - UK.              </p>
                 <p>
                   Issam Abugisseisa practiced  in all fields of business Law, financial Laws, Maritime law, International Trade, Fintech and Intellectual property, with extensive  experience in Islamic_Banking and Islamic Financial Laws in general.</p>
-                  <p style={{marginBottom:'0'}}>
+                <p style={{marginBottom:'0'}}>
                   He practiced as a Licensed Federal Advocate, and practicing now as a Legal consultant in Sudan and UAE.  He worked as a Legal & Shariah  Adviser for several Islamic Leading Banks and commercial corporates in the UAE and MENA Region, and   recognized by the UAE Central Bank as a Shariah Adviser  & Controller and listed as an Islamic finance law expert with Dubai courts .              </p>
               </div>
             </div>
