@@ -503,7 +503,15 @@ button:hover {
   margin-right: 40px;
 }
 
+.half-width{
+  width: 70%;
+}
+
 @media (max-width: 600px) {
+  .half-width{
+    width: 100%;
+  }
+  
   .dubai-artline p {
     width: 100%;
   }

@@ -104,7 +104,7 @@ const HomeAr = () => {
               </div>
               <div className="team_sec_col">
                 <div className='team_member_titel_tight'>
-                  <h1 className="team_member_title" style={{ width: '70px' }}> صفية أبوقصيصة</h1>
+                  <h1 className="team_member_title half-width" > صفية أبوقصيصة</h1>
                 </div>
                 <h2 className='team_sec_col_member_name'>المؤسسة/المستشارة القانونية</h2>
                 <p style={{direction:'rtl'}}>
