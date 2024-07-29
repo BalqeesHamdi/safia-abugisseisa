@@ -133,7 +133,7 @@ export default function Home() {
       </a>
       <a name="experties">
         <div className="colored-background experties">
-          <h1>Experties</h1>
+          <h1>Expertise</h1>
           <div className="boxes-container">
             {experties.map((item, index) => {
               if (index < 6)
